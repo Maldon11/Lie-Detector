@@ -10,7 +10,7 @@ const LieDetector = () => {
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
   const streamRef = useRef(null);
-  const analysisIntervalRef = useRef(null);
+  const analysisIntervalRef = useRef(null);  
 
   // Start camera
   const startCamera = async () => {
